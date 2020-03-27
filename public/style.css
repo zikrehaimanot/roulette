@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(roulette.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section{
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+  color: red;
+}
+div{
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+#resultColor{
+  display: block;
+}
+#resultNumber{
+  display: block;
+}
