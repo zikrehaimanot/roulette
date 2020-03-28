@@ -19,7 +19,20 @@ div{
 }
 #resultColor{
   display: block;
+
 }
 #resultNumber{
   display: block;
+  padding-left: 5%;
+}
+
+
+@media only screen and (max-width:800px) {
+  body{
+    background-image: url(roulette.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+  }
+
 }
